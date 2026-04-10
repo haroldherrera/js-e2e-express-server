@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'haroldAgentDefault'
+  name: 'default'
 
 steps:
 - task: NodeTool@0
