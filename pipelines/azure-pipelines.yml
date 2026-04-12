@@ -64,7 +64,7 @@ stages:
         # pool:
         # vmImage: 'ubuntu-latest'
         # Creates an environment if it doesn't exist.
-        environment: 'smarthotel-dev'
+        environment: 'example-environment'
         strategy:
           # Default deployment strategy, more coming...
           runOnce:
